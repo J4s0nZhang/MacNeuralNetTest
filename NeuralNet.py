@@ -11,7 +11,7 @@ from os.path import isfile, join
 mx.random.seed(3)
 
 cpucount = cpu_count()
-ctx = mx.cpu(24)
+ctx = mx.cpu(cpucount)
 #-----------------------------------------------------------------------------------------------------------------------
 #loads datasets for the neural network
 path_noA = '/media/neerajensritharan/C7-13-Nastaran/rjones/dataset/No Activity'
